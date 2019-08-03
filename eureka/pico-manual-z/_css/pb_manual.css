@@ -1,0 +1,227 @@
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,900");
+/* line 15, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+html {
+  /* Change default typefaces here */
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0; }
+
+@media only screen and (max-width: 599px) {
+  /* line 25, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  html {
+    font-size: 6px; } }
+
+@media only screen and (min-width: 600px) {
+  /* line 31, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  html {
+    font-size: 8px; } }
+
+/* line 36, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+body {
+  padding: 0;
+  margin: 0; }
+
+/* line 41, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+.content {
+  max-width: 600px;
+  margin: 4rem auto 12rem auto;
+  padding: 0 4rem;
+  font-size: 1.75rem;
+  line-height: 3rem; }
+
+/* Copy & Lists */
+/* line 50, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+p {
+  margin-top: 2rem;
+  margin-bottom: 0; }
+
+/* line 55, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+ul,
+ol {
+  margin-top: 1rem;
+  margin-bottom: 3rem; }
+
+/* line 61, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+ul li,
+ol li {
+  margin-bottom: 1rem; }
+
+/* line 66, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 74, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+blockquote {
+  background-color: #e9e9e9;
+  color: #2c2c2c;
+  padding: 24px;
+  margin: 3rem 0;
+  border-left: solid 0.5rem #FFB81C; }
+  /* line 81, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  blockquote p {
+    margin: 0; }
+
+/* Headings */
+/* line 88, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem; }
+  /* line 99, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  h1:before,
+  h2:before,
+  h3:before,
+  h4:before,
+  h5:before,
+  h6:before {
+    display: block;
+    content: " ";
+    margin-top: -3rem;
+    height: 3rem;
+    visibility: hidden; }
+
+/* line 108, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: solid 2px #3478EF; }
+
+/* line 118, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 4rem; }
+
+/* line 124, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h3 {
+  font-size: 1.75rem; }
+
+/* line 128, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h4 {
+  font-size: 1rem; }
+
+/* line 132, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h5 {
+  font-size: 0.4713333333333333rem; }
+
+/* line 136, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+h6 {
+  font-size: 0.3535rem; }
+
+/* Code blocks */
+/* line 141, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+code {
+  vertical-align: bottom; }
+
+/* Leading paragraph text */
+/* line 146, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+.lead {
+  font-size: 1.414rem; }
+
+/* Hug the block above you */
+/* line 151, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+.hug {
+  margin-top: 0; }
+
+/* line 158, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+img {
+  width: 100% !important; }
+
+/* line 165, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3478EF;
+  padding: 1.5rem;
+  font-size: 3rem; }
+  /* line 175, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  nav a {
+    color: white; }
+    /* line 178, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+    nav a:hover {
+      color: #FFB81C; }
+    /* line 182, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+    nav a:visited {
+      color: white; }
+
+/* line 190, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+ul:first-of-type {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  /* line 197, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  ul:first-of-type li a {
+    display: block;
+    background-color: #dddddd;
+    padding: 1rem 2.5rem;
+    border-radius: 4rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 600; }
+    /* line 207, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+    ul:first-of-type li a:hover {
+      background-color: #3478EF;
+      color: white;
+      cursor: pointer !important; }
+
+/* line 217, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+.hero {
+  padding: 6rem;
+  background-color: #3478EF;
+  background-image: url("../_img/hero.png");
+  background-size: cover; }
+  /* line 223, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+  .hero h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center; }
+
+/* line 231, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+.ud-time {
+  text-align: center;
+  color: white;
+  text-transform: uppercase; }
+
+/* line 239, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+table {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse; }
+
+/* line 246, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+table td,
+table th {
+  padding: 0.5rem 1rem; }
+
+/* line 251, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+th {
+  border: solid 1px grey;
+  background-color: #e9e9e9;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+/* line 258, /Users/zack/Dropbox/PicoBrew Files/PicoBrew Design/_working/PB-Zack/PB71 - Manual Markdown Experiment/dev/app/public/_css/pb_manual.scss */
+td {
+  border: solid 1px grey; }
+
+/*# sourceMappingURL=pb_manual.css.map */

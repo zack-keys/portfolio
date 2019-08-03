@@ -1,0 +1,797 @@
+@import url("reset.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+/* line 27, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+html,
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  min-height: 100vh; }
+
+/* line 39, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.illustrationBody,
+.designBody {
+  background-color: #070707; }
+
+/* line 44, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.welcomeBG {
+  background-color: #20c1de !important; }
+  /* line 47, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .welcomeBG .footerBox {
+    display: none !important; }
+
+/* line 52, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+p {
+  margin: 10px 0;
+  font-size: 10px;
+  line-height: 16px; }
+
+/* line 58, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+a {
+  color: #070707;
+  text-decoration: none;
+  border-bottom: solid 2px #20c1de;
+  -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+  /* line 65, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  a:hover {
+    border-color: #20c1de; }
+  /* line 69, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  a:focus {
+    outline: none; }
+
+/* line 74, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+em {
+  font-style: italic; }
+
+/* line 78, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.hidden {
+  display: none !important; }
+
+/* line 82, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.btn {
+  padding: 8px 16px;
+  border: solid 2px #e3e3e3;
+  border-radius: 100px;
+  color: #20c1de;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.25;
+  text-decoration: none;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+  /* line 97, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .btn:hover {
+    border-color: #20c1de; }
+
+/* line 104, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+img {
+  -webkit-transform: translate3d(0, 0, 0); }
+
+/* line 109, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.welcome {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../img/homeBG-01.jpg);
+  background-color: #20c1de;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* easeInOutCubic */
+  -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* easeInOutCubic */ }
+  /* line 136, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .welcome .welcomeBox {
+    width: 500px; }
+    /* line 139, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox svg {
+      width: 70%; }
+    /* line 143, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox .logoZack {
+      fill: #ffffff; }
+    /* line 147, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox .logoKeys {
+      fill: #070707;
+      -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+      transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    /* line 153, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox p {
+      width: 90%;
+      margin: 30px auto;
+      font-style: italic;
+      font-weight: 300;
+      letter-spacing: 0.5;
+      color: white;
+      font-size: 16px;
+      line-height: 24px; }
+    /* line 164, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox .welcomeContact {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      /* line 176, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+      .welcome .welcomeBox .welcomeContact a {
+        color: #070707;
+        -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+        border: none; }
+        /* line 182, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+        .welcome .welcomeBox .welcomeContact a:hover {
+          border: none;
+          color: white; }
+
+@media (max-width: 768px) {
+  /* line 212, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .welcome .welcomeBox {
+    width: 75%; }
+    /* line 215, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox svg {
+      width: 90%; }
+    /* line 219, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .welcome .welcomeBox p {
+      font-size: 14px; } }
+
+/* line 229, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.scrollDown {
+  margin-top: 60px; }
+  /* line 232, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .scrollDown .btn {
+    color: white;
+    font-weight: 100;
+    padding: 8px 32px;
+    font-size: 20px;
+    font-style: italic; }
+    /* line 239, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .scrollDown .btn:after {
+      padding-left: 5px;
+      content: ">";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit; }
+    /* line 248, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .scrollDown .btn:hover {
+      color: white;
+      border-color: #00516f; }
+
+/* line 259, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+nav {
+  height: 70px;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  background-color: #070707; }
+  /* line 266, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  nav .navLink {
+    color: white;
+    text-decoration: none;
+    border-bottom-color: #070707;
+    -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    /* line 274, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    nav .navLink:hover {
+      border-bottom-color: #20c1de; }
+  /* line 279, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  nav .logo {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    float: left;
+    width: 250px;
+    height: 70px;
+    margin: auto;
+    -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    /* line 300, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    nav .logo svg {
+      width: 50%; }
+    /* line 304, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    nav .logo .logoZack {
+      fill: #ffffff; }
+    /* line 308, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    nav .logo .logoKeys {
+      fill: #20c1de;
+      -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+      transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    /* line 314, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    nav .logo:hover {
+      background-color: #20c1de; }
+      /* line 317, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+      nav .logo:hover .logoZack {
+        fill: #ffffff; }
+      /* line 321, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+      nav .logo:hover .logoKeys {
+        fill: #070707; }
+  /* line 329, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  nav .logo.openWelcome {
+    cursor: hand !important;
+    cursor: pointer !important; }
+
+/* line 337, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.navText {
+  float: left;
+  height: 70px;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  line-height: 70px; }
+
+/* line 348, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+ul {
+  list-style-type: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+  overflow: hidden; }
+  /* line 354, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding: 0 20px; }
+    /* line 361, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    ul li:hover .navLink {
+      border-bottom: solid #20c1de 2px; }
+
+/* line 370, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.navLink {
+  border-bottom: solid #070707 2px; }
+
+/* line 374, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.navContact {
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  margin-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1; }
+  /* line 386, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navContact i {
+    font-size: 15px;
+    margin: 0 5px; }
+  /* line 391, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navContact .spacer {
+    width: 2px;
+    margin: 0 10px;
+    background-color: #20c1de; }
+  /* line 397, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navContact .deskMail a {
+    text-transform: uppercase;
+    border-bottom-color: #070707;
+    color: white; }
+    /* line 402, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .navContact .deskMail a:hover {
+      border-bottom: solid #20c1de 2px; }
+  /* line 407, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navContact .socialIcon {
+    border-bottom: none; }
+    /* line 410, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .navContact .socialIcon:hover {
+      border-bottom: none; }
+    /* line 414, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .navContact .socialIcon.mail {
+      display: none; }
+  /* line 419, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navContact div {
+    display: inline-block; }
+
+/* line 427, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.stuck {
+  position: fixed;
+  z-index: 1;
+  top: 0; }
+
+@media (max-width: 1024px) {
+  /* line 440, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  nav .deskMail {
+    display: none; }
+  /* line 445, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  nav .socialIcon.mail {
+    display: inline-block !important; } }
+
+@media (max-width: 768px) {
+  /* line 454, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  nav {
+    height: 50px; }
+    /* line 457, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    nav .logo {
+      height: 50px;
+      width: 25% !important; }
+      /* line 461, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+      nav .logo svg {
+        width: 70% !important; }
+  /* line 467, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navText {
+    height: 50px;
+    line-height: 50px; }
+    /* line 471, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .navText ul {
+      height: 50px;
+      line-height: 50px;
+      margin: 0;
+      margin: 0; }
+      /* line 477, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+      .navText ul li {
+        padding: 0 5px;
+        font-size: 8px; }
+  /* line 485, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .navContact {
+    height: 10px;
+    line-height: 10px; }
+    /* line 489, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .navContact i {
+      font-size: 12px;
+      margin: 0 1px; } }
+
+/* line 499, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.portfolio {
+  padding-bottom: 150px; }
+
+/* line 503, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.groupText {
+  padding: 80px 24px;
+  text-align: center;
+  background-color: white; }
+  /* line 510, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .groupText div {
+    margin: auto;
+    max-width: 528px; }
+  /* line 515, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .groupText h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 16px; }
+  /* line 523, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .groupText h2 {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase; }
+  /* line 530, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .groupText p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 24px; }
+
+/* line 540, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.gamedevBody {
+  height: 100%; }
+
+/* line 544, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.games {
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 24px; }
+  /* line 549, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .games iframe {
+    margin-bottom: 32px; }
+  /* line 553, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .games h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center; }
+  /* line 562, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .games h2 {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase; }
+  /* line 569, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .games p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 24px;
+    margin-bottom: 40px; }
+
+/* line 580, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.designBody .portTile:after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+/* line 592, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.designBody .portTile:hover:after {
+  height: 6px;
+  background-color: #20c1de; }
+
+/* line 599, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.portTile {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  padding-bottom: 25%;
+  overflow: hidden;
+  border-bottom: 0; }
+  /* line 607, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portTile img {
+    position: absolute;
+    top: 0;
+    width: 101%;
+    opacity: 0;
+    -webkit-transition: opacity 250ms;
+    -webkit-transition: opacity 250ms;
+    transition: opacity 250ms; }
+  /* line 619, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portTile.loaded img {
+    opacity: 1; }
+
+/* line 625, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.heroImage {
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  min-height: 350px;
+  margin-bottom: 38px;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: opacity 250ms;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms; }
+  /* line 640, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .heroImage.loaded {
+    opacity: 1; }
+  /* line 645, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .heroImage img {
+    width: 0px; }
+
+/* line 650, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.portfolioEntry {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto 16px auto; }
+  /* line 656, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portfolioEntry h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  /* line 664, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portfolioEntry h2 {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase; }
+  /* line 671, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portfolioEntry p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 24px;
+    margin-bottom: 13px; }
+  /* line 678, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portfolioEntry hr {
+    border: 0;
+    height: 1px;
+    background: #e3e3e3;
+    width: 10%;
+    margin: 0 auto; }
+  /* line 686, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portfolioEntry ul {
+    margin: 0; }
+    /* line 689, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .portfolioEntry ul li {
+      border: solid #e3e3e3 2px;
+      border-radius: 100px;
+      padding: 4px 10px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      font-style: italic;
+      color: #070707;
+      -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+      transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    /* line 703, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .portfolioEntry ul a li:hover {
+      border-color: #20c1de; }
+
+/* line 710, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.projectText {
+  overflow: hidden; }
+
+/* line 714, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.projectDuties {
+  margin-bottom: 30px; }
+
+/* line 718, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.projectImages {
+  max-width: 800px;
+  margin: 0 auto 0 auto !important;
+  padding-bottom: 230px; }
+  /* line 723, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectImages img {
+    outline: solid 1px white;
+    width: 50%; }
+  /* line 728, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectImages img.fullImg {
+    width: 100%; }
+
+/* line 735, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.vidWrapper {
+  max-width: 800px;
+  margin-bottom: 40px; }
+
+/* line 740, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden; }
+
+/* line 747, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 757, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.footerBox {
+  position: absolute;
+  display: block;
+  height: 150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/homeBG-01.jpg);
+  background-blend-mode: multiply;
+  background-color: #20c1de;
+  line-height: 150px;
+  text-align: center;
+  text-align: center; }
+  /* line 771, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .footerBox .btn {
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    /* line 780, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .footerBox .btn span:before {
+      content: "\f003";
+      padding-right: 5px;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit; }
+    /* line 789, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .footerBox .btn:hover {
+      color: white;
+      border-color: #00516f; }
+
+@media (max-width: 1024px) {
+  /* line 802, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portTile {
+    width: 33.33%;
+    width: calc(100% / 3);
+    padding-bottom: 33.333%;
+    padding-bottom: calc(100% / 3); } }
+
+@media (max-width: 768px) {
+  /* line 812, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portTile {
+    width: 50%;
+    padding-bottom: 50%; }
+  /* line 817, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .portfolioEntry {
+    display: block; }
+  /* line 821, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectBio {
+    margin-bottom: 24px; }
+  /* line 825, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .heroImage {
+    border-bottom: solid 1px white; }
+  /* line 829, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectImages {
+    padding-bottom: 150px; }
+    /* line 832, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .projectImages img {
+      width: 100%; }
+  /* line 838, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectDuties ul {
+    margin-bottom: 15px; } }
+
+/* line 849, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.aboutBody .heroImage {
+  min-height: 100px !important;
+  max-height: 200px; }
+
+/* line 855, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.aboutMe {
+  background-color: white; }
+  /* line 858, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .aboutMe .bio {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0 20px 190px 20px; }
+    /* line 863, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .aboutMe .bio h1 {
+      margin-bottom: 20px;
+      font-size: 35px;
+      line-height: 40px;
+      font-weight: 800;
+      text-transform: uppercase; }
+    /* line 871, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .aboutMe .bio p {
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 10px; }
+    /* line 877, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .aboutMe .bio .btn {
+      display: inline-block;
+      margin-top: 16px; }
+
+/* line 887, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.container {
+  max-width: 1440px;
+  padding: 0;
+  margin: 0 auto;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  -moz-column-gap: 1px;
+  -webkit-column-gap: 1px;
+  column-gap: 1px; }
+
+/* line 899, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.flex-item {
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 0em;
+  width: 100%;
+  outline: solid 1px white; }
+
+/* line 907, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.flex-item img {
+  width: 100%; }
+
+/* line 911, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.flex-item div {
+  width: 100%; }
+
+/* line 915, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.container.tumblr {
+  overflow: hidden;
+  max-height: 2000px; }
+
+/* line 922, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.postText {
+  overflow: hidden;
+  padding: 20px; }
+
+/* line 927, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #070707;
+  border-top: solid 1px white;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: white; }
+
+/* line 941, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch; }
+
+/* line 961, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+.box {
+  width: 25%;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto; }
+  /* line 969, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .box img {
+    width: 100%; }
+
+@media (min-width: 800px) {
+  /* line 979, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .heroImage {
+    margin-bottom: 60px; }
+  /* line 983, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectBio {
+    display: inline-block;
+    float: left;
+    width: 60%;
+    margin-bottom: 32px; }
+  /* line 990, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectDuties {
+    display: inline-block;
+    float: right;
+    width: 35%; }
+  /* line 996, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+  .projectImages {
+    margin-bottom: 80px; }
+    /* line 999, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .projectImages img {
+      width: 49%;
+      margin-bottom: 40px; }
+    /* line 1004, /Users/zack/Local Sites/zackeyscom/app/public/css/style.scss */
+    .projectImages .smallImg:nth-child(odd) {
+      margin-right: 2%; } }
+
+/*# sourceMappingURL=style.css.map */
